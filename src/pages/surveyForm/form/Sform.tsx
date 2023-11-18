@@ -39,7 +39,7 @@ function Sform({ id, form }: Props) {
     <>
       <Divider
         orientation="center"
-        style={{ fontSize: "24px", marginBottom: 20 }}
+        style={{ fontSize: "24px", marginBottom: 30 }}
       >
         Survey Form
       </Divider>
@@ -52,7 +52,7 @@ function Sform({ id, form }: Props) {
                 <>
                   <NumberedCircle number={1} />
                   <Text
-                    style={{ marginLeft: 8, fontSize: 20, marginBottom: 3 }}
+                    style={{ marginLeft: 8, fontSize: 16, marginBottom: 3 }}
                   >
                     Title
                   </Text>
@@ -63,7 +63,7 @@ function Sform({ id, form }: Props) {
               <Select
                 placeholder="Select Title"
                 options={options}
-                style={{ width: 300 }}
+                style={{ width: "40%" }}
               />
             </Form.Item>
           </Col>
@@ -74,7 +74,7 @@ function Sform({ id, form }: Props) {
               label={
                 <>
                   <NumberedCircle number={2} />
-                  <Row style={{ marginLeft: 8, fontSize: 20, marginBottom: 3 }}>
+                  <Row style={{ marginLeft: 8, fontSize: 16, marginBottom: 3 }}>
                     Date of Birth
                   </Row>
                 </>
@@ -158,7 +158,7 @@ function Sform({ id, form }: Props) {
               label={
                 <>
                   <NumberedCircle number={3} />
-                  <Row style={{ marginLeft: 8, fontSize: 20 }}>
+                  <Row style={{ marginLeft: 8, fontSize: 16 }}>
                     On a scale of 1 - 10, with 10 being the highest, would you
                     rate the following? The usual performance of most other
                     workers in a job similar to yours
@@ -193,7 +193,7 @@ function Sform({ id, form }: Props) {
               label={
                 <>
                   <NumberedCircle number={4} />
-                  <Row style={{ marginLeft: 8, fontSize: 20, marginBottom: 3 }}>
+                  <Row style={{ marginLeft: 8, fontSize: 16, marginBottom: 3 }}>
                     Are there any other sources of stress not mentioned here
                     that affect you?
                   </Row>
@@ -224,7 +224,7 @@ function Sform({ id, form }: Props) {
               label={
                 <>
                   <NumberedCircle number={5} />
-                  <Row style={{ marginLeft: 8, fontSize: 20, marginBottom: 3 }}>
+                  <Row style={{ marginLeft: 8, fontSize: 16, marginBottom: 3 }}>
                     How would you describe the balance between your work and
                     non-work activities?
                   </Row>
